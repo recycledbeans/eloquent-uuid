@@ -21,7 +21,7 @@ Schema::create('documents', function (Blueprint $table) {
 });
 ``` 
 
-Then use the `UUID` trait in your Eloquent models to ensure your models automatically get UUIDs.
+Then use the `UUID` trait in your Eloquent models to ensure your models automatically function with UUID primary keys.
 
 ```php
 <?php
